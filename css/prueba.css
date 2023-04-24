@@ -1,0 +1,88 @@
+nav {
+    background-color: aquamarine;
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+}
+
+.blackButton {
+    height: 200px;
+    background-color: red;
+}
+
+.botoncito {
+    transition: all 0.5s;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    border: none;
+}
+
+.botoncito:hover {
+    background-color: aqua;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.5s;
+}
+
+nav ul a:hover {
+    background-color: aqua;
+}
+
+nav ul li {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+
+.tab {
+    width: 70%;
+    height: 70vh;
+    background-color: burlywood;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+.textos {
+    width: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 100px;
+}
+
+.fotito {
+    height: 40%;
+}
+
+/*------------------*/
+
+#first {
+    display: none;
+}
+
+#second {
+    display: none;
+}
+
+#third {
+    display: none;
+}
+
+#main {
+    display: none;
+}
+
